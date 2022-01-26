@@ -4,9 +4,9 @@
 
 #### Provide liquidity / Withdraw <a href="#provide-liquidity--withdraw" id="provide-liquidity--withdraw"></a>
 
-As the swap ratio is stated as [here](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/mechanism), the size of the pool is related with the difference of swap ratio. The ratio goes stable if the size of the pool increases, and vice versa. Otherwise, LP provider needs more tokens for adjusting the price in bigger pool. It means that the market loses elastic. LP provider adjusts this market by providing & withdraw the liquidity within this trade-off.
+As the swap ratio is stated as [here](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/mechanism), the size of the pool is related with the difference of swap ratio. The ratio goes stable if the size of the pool increases, and vice versa. Otherwise, LP provider needs more tokens for adjusting the price in bigger pool. It means that the market loses elastic. LP provider adjusts this market by providing & withdraw the liquidity within this trade-off.
 
-&#x20;**Provide liquidity**
+**Provide liquidity**
 
 Contribute to pool by sending sender’s token pair. Not only increasing its size, but also it affects to the swap ratio.
 
@@ -167,6 +167,3 @@ If you want to know how much the target token will be given from source token, u
   }
 }
 ```
-
-
-

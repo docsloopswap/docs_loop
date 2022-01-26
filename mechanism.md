@@ -22,7 +22,7 @@ $$
 XY=k=(X+Ain​)(Y−Bout​)
 $$
 
-To determine the proper value of BoutB_{out}Bout​ given the trader’s offered asset AinA_{in}Ain​ :
+To determine the proper value of BoutB\_{out}Bout​ given the trader’s offered asset AinA\_{in}Ain​ :
 
 $$
 Bout​=Y Ain/X+Ain
@@ -38,9 +38,8 @@ When a pool has large balances of tokens on both sides from liquidity providers,
 
 ### Farm <a href="#pricing" id="pricing"></a>
 
-LoopSwap provides different [Farm](https://app.gitbook.com/@usama-zeeyou/s/loop/how-to/farming) depending on the pairs against which we have provide liquidity. You can stake your LP tokens in the respective farm and earn some reward in the form of **LOOP**
+LoopSwap provides different [Farm](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/how-to/farming) depending on the pairs against which we have provide liquidity. You can stake your LP tokens in the respective farm and earn some reward in the form of **LOOP**
 
 ### Stake <a href="#pricing" id="pricing"></a>
 
-LoopSwap also comes up with the facility of direct [Staking](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiWZwa3RQdROGa0UaTe/v/master/how-to/stake) of the **LOOP** tokens from which you can earn the rewad in the fom of **LOOP** daily.&#x20;
-
+LoopSwap also comes up with the facility of direct [Staking](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiWZwa3RQdROGa0UaTe/v/master/how-to/stake) of the **LOOP** tokens from which you can earn the rewad in the fom of **LOOP** daily.

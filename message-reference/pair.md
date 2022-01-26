@@ -5,7 +5,7 @@
 #### Provide liquidity <a href="#provide-liquidity" id="provide-liquidity"></a>
 
 Send user’s asset to a LoopSwap contract and provide liquidity.\
-&#x20;**NOTE: You should** [**allow your allowance**](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/message-reference/cw20-token) **of the token before providing liquidity!**
+**NOTE: You should** [**allow your allowance**](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/message-reference/cw20-token) **of the token before providing liquidity!**
 
 Asset can be both of contract-based token and native token. It can be distinguished with the key under `info`: `token` or `native_token`.
 
@@ -38,10 +38,10 @@ Asset can be both of contract-based token and native token. It can be distinguis
 #### Swap <a href="#swap" id="swap"></a>
 
 Swap between the given two tokens. It can be thought of as trade.\
-&#x20;`offer_asset` is your source asset and `to` is your destination token contract.
+`offer_asset` is your source asset and `to` is your destination token contract.
 
-**NOTE: You should** [**allow your allowance**](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/message-reference/cw20-token) **of the token before swap!!**\
-&#x20;**NOTE: This method is only used to swap to contract-based token as a destination! In opposite case, please check** [**another document**](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/how-to/swap)
+**NOTE: You should** [**allow your allowance**](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/message-reference/cw20-token) **of the token before swap!!**\
+**NOTE: This method is only used to swap to contract-based token as a destination! In opposite case, please check** [**another document**](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/how-to/swap)
 
 ```
 {
@@ -77,7 +77,6 @@ Swap between the given two tokens. It can be thought of as trade.\
         "to": "<HumanAddr>" // optional,
     }
 }
-
 ```
 
 ### Query <a href="#query" id="query"></a>

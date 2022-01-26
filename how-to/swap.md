@@ -2,17 +2,17 @@
 
 Swap in LoopSwap works as same as trade in other exchanges. Price of centralized exchanges for both stock and cryptocurrency move by price bidding system, and supply & demand. These prices change in millisecond intervals, so real-time transaction is maintained in the market. But if anyone is trying to implement an exchange with the bidding-based pricing on blockchain, immediate execution of transaction becomes impossible due to block time.
 
-Therefore, a different pricing approach is used in LoopSwap - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/mechanism).
+Therefore, a different pricing approach is used in LoopSwap - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/mechanism).
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * Token & pair should be deployed
 * You should know the addresses of token & pair.
-* Increase your allowance. [Execute `IncreaseAllowance`](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/message-reference/cw20-token)
+* Increase your allowance. [Execute `IncreaseAllowance`](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/message-reference/cw20-token)
 
 ### Swap by using CLI <a href="#swap-by-using-cli" id="swap-by-using-cli"></a>
 
-#### &#x20;(Native token, Contract-minted token) -> Contract-minted Token <a href="#native-token-contract-minted-token---contract-minted-token" id="native-token-contract-minted-token---contract-minted-token"></a>
+#### (Native token, Contract-minted token) -> Contract-minted Token <a href="#native-token-contract-minted-token---contract-minted-token" id="native-token-contract-minted-token---contract-minted-token"></a>
 
 By command line, all transactions can be executed in this way:
 
@@ -24,7 +24,7 @@ terracli tx wasm execute <contract-address> <handle-msg> <coins>
 * `handle-msg`: It represents the method and parameters of this execution. Will explain below.
 * `coins`: Fee to execute transaction
 
-Enter `contract-address`, `coins` and `handle-msg`. To learn more about the general rules for `handle-msg` please refer to this [link](https://app.gitbook.com/@usama-zeeyou/s/loop/\~/drafts/-MiV9TLqqmMLvhM7R-9J/how-to/query).
+Enter `contract-address`, `coins` and `handle-msg`. To learn more about the general rules for `handle-msg` please refer to this [link](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/how-to/query).
 
 * Source asset: native token
 
@@ -74,7 +74,7 @@ After filling it out, you may choose to change it into an inline string (not nec
 
 This is your `handle-msg`. The `handle-msg` can be used to complete the CLI command to swap tokens.
 
-#### &#x20;Contract-minted token -> Native Token <a href="#contract-minted-token---native-token" id="contract-minted-token---native-token"></a>
+#### Contract-minted token -> Native Token <a href="#contract-minted-token---native-token" id="contract-minted-token---native-token"></a>
 
 Swapping contract-minted token to native token is executed with the same logic as above, but requires a differnet `handle-msg` due to difference in token system and its implementation. Message looks like:
 
