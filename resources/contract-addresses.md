@@ -20,6 +20,14 @@
 * usdr-uluna pair contract: `terra1vs2vuks65rq7xj78mwtvn7vvnm2gn7adjlr002`
 * usdr-uluna lp token: `terra1mljg7dvzknqh3gc62emagf7hwxxg8efemennp8`
 
+``
+
+`*Rest of the pairs can be get from the following`&#x20;
+
+[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg={%22pairs%22:{}}) are first 30 pairs
+
+[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg={%22pairs%22:{%22start\_after%22:\[{%22token%22:{%22contract\_addr%22:%22terra14tl83xcwqjy0ken9peu4pjjuu755lrry2uy25r%22}},{%22native\_token%22:{%22denom%22:%22uluna%22}}]}}) are the pairs from 31 - 60
+
 ### Tequila testnet <a href="#tequila-testnet" id="tequila-testnet"></a>
 
 #### Factory <a href="#factory-1" id="factory-1"></a>
@@ -35,4 +43,3 @@
 * umnt-uluna pair contract: `terra18x2ld35r4vn5rlygjzpjenyh2rfmvqgqk9lrnn`
 * ukrw-uluna pair contract: `terra1rfzwcdhhu502xws6r5pxw4hx8c6vms772d6vyu`
 * usdr-uluna pair contract: `terra1dmrn07plsrr8p7qqq6dmue8ydw0smxfza6f8sc`
-
