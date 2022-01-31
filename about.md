@@ -14,8 +14,8 @@ A **trader** can exchange their token for another token through LoopSwap using t
 
 **LoopSwap Web Application is the official web front-end interface swapping Loop native tokens and CW20 tokens. The web application is located** [**here**](https://dex.loop.markets)**.**
 
-[Terra Station Extension](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp) is required to interact with LoopSwap Web Application.
+[Terra Station Extension](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp) is required even though any wallet that supports Terra would work.
 
-> Currently, Station Extension is only available for Google Chrome.
+> Currently, Terra Station Extension is only available for Google Chrome.
 
 First, **Loop** native tokens must be sent to the wallet address corresponding to your Loop Station Extension in order to execute swaps from the web application. Once you generate a transaction in the proper format, Station Extension will prompt you to sign the transaction by entering your password.
