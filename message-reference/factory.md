@@ -60,6 +60,6 @@ description: >-
 }
 ```
 
-[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg={%22pairs%22:{}}) are first 30 pairs
+[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg=%7B%22pairs%22:%7B%22limit%22:30%7D%7D) are first 30 pairs
 
-[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg={%22pairs%22:{%22start\_after%22:\[{%22token%22:{%22contract\_addr%22:%22terra14tl83xcwqjy0ken9peu4pjjuu755lrry2uy25r%22}},{%22native\_token%22:{%22denom%22:%22uluna%22}}]}}) are the pairs from 31 - 60
+[Here](https://fcd.terra.dev/wasm/contracts/terra16hdjuvghcumu6prg22cdjl96ptuay6r0hc6yns/store?query\_msg=%7B%22pairs%22:%7B%22start\_after%22:\[%7B%22token%22:%7B%22contract\_addr%22:%22terra1mj4rkdr2l5cvse8089z45mlp5dxx0hrjy5ts94%22%7D%7D,%7B%22native\_token%22:%7B%22denom%22:%22uusd%22%7D%7D],%22limit%22:30%7D%7D) are the pairs from 31 - 60

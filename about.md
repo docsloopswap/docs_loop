@@ -12,7 +12,7 @@ A **trader** can exchange their token for another token through LoopSwap using t
 
 ## LoopSwap Web Application <a href="#terraswap-web-application" id="terraswap-web-application"></a>
 
-**LoopSwap Web Application is the official web front-end interface swapping Loop native tokens and CW20 tokens. The web application is located** [**here**](https://app.terraswap.io)**.**
+**LoopSwap Web Application is the official web front-end interface swapping Loop native tokens and CW20 tokens. The web application is located** [**here**](https://dex.loop.markets)**.**
 
 [Terra Station Extension](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp) is required to interact with LoopSwap Web Application.
 

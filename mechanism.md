@@ -38,7 +38,7 @@ When a pool has large balances of tokens on both sides from liquidity providers,
 
 ### Farm <a href="#pricing" id="pricing"></a>
 
-LoopSwap provides different [Farm](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/how-to/farming) depending on the pairs against which we have provide liquidity. You can stake your LP tokens in the respective farm and earn some reward in the form of **LOOP**
+LoopSwap provides different [Farm](how-to/farming.md) depending on the pairs against which we have provide liquidity. You can stake your LP tokens in the respective farm and earn some reward in the form of **LOOP**
 
 ### Stake <a href="#pricing" id="pricing"></a>
 
