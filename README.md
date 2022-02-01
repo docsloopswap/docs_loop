@@ -10,13 +10,13 @@ description: >-
 
 Swap in LoopSwap works as same as trade in other exchanges. Price of centralized exchanges for both stock and cryptocurrency move by price bidding system, and supply & demand. These prices change in millisecond intervals, so real-time transaction is maintained in the market. But if anyone is trying to implement an exchange with the bidding-based pricing on blockchain, immediate execution of transaction becomes impossible due to block time.
 
-Therefore, a different pricing approach is used in LoopSwap - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/mechanism).
+Therefore, a different pricing approach is used in LoopSwap - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section](mechanism.md).
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * Token & pair should be deployed
 * You should know the addresses of token & pair.
-* Increase your allowance. [Execute `IncreaseAllowance`](https://app.gitbook.com/s/-MhJHX6Bel6cq1nEeJGB/message-reference/cw20-token)
+* Increase your allowance. [Execute `IncreaseAllowance`](message-reference/cw20-token.md)
 
 ### Swap by using CLI <a href="#swap-by-using-cli" id="swap-by-using-cli"></a>
 
